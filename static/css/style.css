@@ -254,6 +254,9 @@ input[type="text"], input[type="password"], input[type="number"], textarea, sele
 .ui-autocomplete .ui-menu-item.o_m2o_dropdown_option {
   padding-left: 0;
 }
+.input-group .btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
 
 /* search */
 .o_searchview .o_searchview_facet {
